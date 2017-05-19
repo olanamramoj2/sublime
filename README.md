@@ -14,18 +14,9 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 This code creates the Installed Packages folder for you (if necessary), and then downloads the Package Control.sublime-package into it. The download will be done over HTTP instead of HTTPS due to Python standard library limitations, however the file will be validated using SHA-256.
 
 
-
-HOME
-ABOUT
-WORKS
-BLOG
-CONTACT
-EN
-TR
-33 ESSENTIAL SUBLIME TEXT PLUGINS FOR ALL DEVELOPERS
+ESSENTIAL SUBLIME TEXT PLUGINS FOR ALL DEVELOPERS
 Also video previews, tips and tricks for Sublime Text Packages
 
-14 OCTOBER 2015
 
 SUBLIME TEXT
 Introduction
@@ -46,6 +37,7 @@ Second which is easier way, you can install through Sublime Text official Packag
 
 After you install a package, try to avoid making changes on package's default configuration file. Most packages will be installed as a single file on Sublime Text 3 and it does not let you modify default package configuration file. However,  all of the packages will be extracted to a folder on Sublime Text 2 and it's open for user's editing. Make changes as long as possible in packages' user config file. In this way, when packages or Sublime Text itself are upgraded, you will not lose any changes you made.
 
+ESLINT
 AdvancedNewFile
 
 0:00
